@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Ranga|Roboto');
+
+#background {
+  background-color: black;
+}
+
+#quoteText {
+    font-size: 1.50rem;
+    font-family: 'Ranga', cursive;
+}
+#quoteContainer {
+  padding: 5%;
+  margin-top: 25vh;
+  background-color: #fff;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Quote Generator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="index.js"></script>
+</head>
+<body id='background'>
+
+<div class="container">
+  <div class="row">
+    <div class="col-8 offset-2" id="quoteContainer">
+      <div id="quoteblock">
+        <p id="quoteText">
+          "<span id="text">Press on 'New Quote!'</span>"
+        </p>
+        
+        <p id="quoteAuthor">- <span id="author">Rolando Escalona</span></p>
+        </div>
+        <div class="buttons">
+          <button onClick='tweet()'class="btn btn-dark" id="tweet">
+            Tweet
+          </button>
+          <button class="btn btn-dark" id="quote-button">
+            New Quote!
+          </button>
+        </div>
+
+
+      
+    </div>
+
+  </div>
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
